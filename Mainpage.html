@@ -1,0 +1,58 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar Potential Estimator</title>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK6OVZa9TroQRa8jJ8ozFpr8HP3vjvrlQ&libraries=places"></script>
+  
+</head>
+<body>
+  <h1>Solar Potential Estimator</h1>
+  <input type="text" id="addressInput" placeholder="Enter your address">
+  <div id="addressSuggestions"></div>
+  <button onclick="getSolarPotential()">Estimate</button>
+  <div id="result"></div>
+
+  <script>
+    function initAutocomplete() {
+      const addressInput = document.getElementById('addressInput');
+      const autocomplete = new google.maps.places.Autocomplete(addressInput);
+      autocomplete.setTypes(['address']);
+      autocomplete.addListener('place_changed', function() {
+        const place = autocomplete.getPlace();
+        if (!place.geometry) {
+          return;
+        }
+      });
+    }
+
+    async function getSolarPotential() {
+      const address = document.getElementById('addressInput').value;
+      try {
+        const response = await fetch('/solar-potential', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ address })
+        });
+        const data = await response.json();
+        document.getElementById('result').innerText = JSON.stringify(data, null, 2);
+      } catch (error) {
+        console.error('Error fetching solar potential data:', error);
+        document.getElementById('result').innerText = 'Error fetching solar potential data';
+      }
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK6OVZa9TroQRa8jJ8ozFpr8HP3vjvrlQ&libraries=places&callback=initAutocomplete" async defer></script>
+</body>
+</html>
+
+
+
+
+
+
