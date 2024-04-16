@@ -1,0 +1,41 @@
+.content-section {
+    margin: 20px 0; /* Adds space between sections */
+    text-align: center; /* Centers the text within the section */
+}
+
+.content-image {
+    max-width: 80%; /* Limit the maximum width to 80% of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures no extra space below the image */
+    margin: 20px auto; /* Adds margin above/below the image and centers it horizontally */
+}
+.content-title {
+    font-size: 2em; /* Makes the title larger and responsive to the parent font size */
+    color: #ccc; /* Light grey, adjust as needed */
+    margin: 10px 20px 0; /* Space above and around the title */
+}
+
+.content-text {
+    font-size: 1.25em; /* Increases the base font size for better readability */
+    line-height: 1.6; /* Improves line spacing */
+    margin: 0 20px 20px; /* Adds margin around the text */
+    color: #fff; /* Sets text color, adjust as needed */
+}
+
+@media (max-width: 768px) {
+    .content-image {
+        max-width: 95%; /* Allows larger display of images on smaller screens */
+    }
+
+    .content-title {
+        font-size: 1.5em; /* Adjusts title size for small screens */
+    }
+
+    .content-text {
+        font-size: 1em; /* Adjusts text size for small screens */
+        margin: 0 10px 10px; /* Adjusts margins for smaller screens */
+    }
+}
+
+
+

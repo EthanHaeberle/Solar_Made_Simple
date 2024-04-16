@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+}
+
+
+.frame {
+    width: 100%; /* Use full width of the viewport */
+    height: 150px; /* You might want to make this relative too, or keep it fixed if it's a header or footer */
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(180deg, rgb(25, 25, 25) 0%, rgb(245, 214, 40) 100%);
+}
+
+.frame .group {
+    position: relative;
+    width: 32%; /* Adjusted from a fixed width to a percentage of its parent container */
+    height: 24px; /* Fixed height is okay here if that's your design intent */
+    top: 50%; /* Center vertically, adjust as necessary */
+    left: 50%; /* Center horizontally, adjust as necessary */
+    transform: translate(-50%, -50%); /* This centers the .group element */
+}
+
+.frame .heading-name {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; /* You might want to make this responsive or use a media query to adjust on smaller screens */
+    position: relative;
+}
+
+.frame .label-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* This can stay if the layout looks good across devices */
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame .label {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Righteous-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: calc(10px + 1.5vw); /* Responsive font size */
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.logo {
+    position: absolute;   /* Positions the logo absolutely relative to its first positioned (not static) ancestor element */
+    top: 0;               /* Aligns the top of the logo with the top of the viewport */
+    left: 0;              /* Aligns the left of the logo with the left of the viewport */
+    width: 200px;         /* Sets a fixed width for the logo */
+    height: auto;         /* Maintains the aspect ratio of the logo */
+    z-index: 1000;        /* Ensures the logo stays on top of other elements */
+}
+
+/* Ensures the logo container does not block click events on underlying elements */
+.logo img {
+    display: block;       /* Removes bottom space/gap */
+    width: 100%;          /* Ensures the image fills the container */
+    height: auto;         /* Keeps the image's aspect ratio */
+}
