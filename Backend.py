@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 import requests
 
 app = Flask(__name__)
-GOOGLE_GEOCODING_API_KEY = 'AIzaSyCK6OVZa9TroQRa8jJ8ozFpr8HP3vjvrlQ'
+GOOGLE_GEOCODING_API_KEY = 'My_API_KEY'
 
 @app.route('/solar-potential', methods=['POST'])
 def get_solar_potential():
