@@ -1,0 +1,311 @@
+.testimonial {
+  background-color: #EBE8DA;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.testimonial .group-wrapper {
+  background-color: #EBE8DA;
+  overflow: hidden;
+  width: 1679px;
+  height: 2428px;
+}
+
+.testimonial .group {
+  width: 1682px;
+  height: 6827px;
+}
+
+.testimonial .HOME {
+  position: relative;
+  height: 6827px;
+  background-color: #EBE8DA;
+}
+
+.testimonial .image {
+  position: absolute;
+  width: 1679px;
+  height: 555px;
+  top: 128px;
+  left: 0;
+  object-fit: cover;
+}
+
+.testimonial .overlap {
+  height: 651px;
+  top: 766px;
+  left: 71px;
+  position: absolute;
+  width: 1535px;
+}
+
+.testimonial .rectangle {
+  position: absolute;
+  width: 455px;
+  height: 455px;
+  top: 5px;
+  left: 34px;
+  background: #81865E
+}
+
+.testimonial .div {
+  position: absolute;
+  width: 455px;
+  height: 455px;
+  top: 5px;
+  left: 1043px;
+  background: #81865E
+}
+
+.testimonial .rectangle-2 {
+  position: absolute;
+  width: 455px;
+  height: 455px;
+  top: 5px;
+  left: 546px;
+  background:#81865E
+}
+
+.testimonial .text-wrapper {
+  position: absolute;
+  width: 385px;
+  top: 79px;
+  left: 69px;
+  font-family: "Roboto Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial .p {
+  position: absolute;
+  width: 420px;
+  top: 74px;
+  left: 569px;
+  font-family: "Roboto Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial .text-wrapper-2 {
+  position: absolute;
+  width: 371px;
+  top: 79px;
+  left: 1081px;
+  font-family: "Roboto Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial .text-wrapper-3 {
+  top: 0;
+  left: 69px;
+  position: absolute;
+  font-family: "Roboto Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial .text-wrapper-4 {
+  top: 4px;
+  left: 572px;
+  position: absolute;
+  font-family: "Roboto Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial .text-wrapper-5 {
+  top: 12px;
+  left: 1052px;
+  position: absolute;
+  font-family: "Roboto Mono-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial .img {
+  position: absolute;
+  width: 1535px;
+  height: 146px;
+  top: 505px;
+  left: 0;
+}
+
+.testimonial .text-wrapper-6 {
+  position: absolute;
+  width: 1122px;
+  top: 587px;
+  left: 205px;
+  font-family: "Righteous-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial .sara-cutman {
+  position: absolute;
+  width: 769px;
+  top: 506px;
+  left: 385px;
+  font-family: "Righteous-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.testimonial .overlap-group {
+  height: 293px;
+  top: 2084px;
+  left: 69px;
+  background-image: url(./img/rectangle-206.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  width: 1535px;
+}
+
+.testimonial .what-could-make-your {
+  position: absolute;
+  width: 1307px;
+  top: 28px;
+  left: 123px;
+  font-family: "Righteous-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.testimonial .if-your-neighbors-or-wrapper {
+  height: 146px;
+  top: 1871px;
+  left: 71px;
+  background-image: url(./img/rectangle-207.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  width: 1535px;
+}
+
+.testimonial .if-your-neighbors-or {
+  position: absolute;
+  width: 1307px;
+  top: 13px;
+  left: 129px;
+  font-family: "Righteous-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.testimonial .are-you-interested-wrapper {
+  height: 146px;
+  top: 1671px;
+  left: 69px;
+  background-color: #d9d9d9;
+  position: absolute;
+  width: 1535px;
+}
+
+.testimonial .are-you-interested {
+  position: absolute;
+  width: 1307px;
+  top: 21px;
+  left: 131px;
+  font-family: "Righteous-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.testimonial .if-you-do-not-wrapper {
+  height: 146px;
+  top: 1471px;
+  left: 73px;
+  background-image: url(./img/rectangle-209.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  width: 1535px;
+}
+
+.testimonial .if-you-do-not {
+  position: absolute;
+  width: 1307px;
+  top: 29px;
+  left: 130px;
+  font-family: "Righteous-Regular", Helvetica;
+  font-weight: 400;
+  color: #81865E;
+  font-size: 30px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.testimonial-box {
+  margin-top: 500px; /* Adds space above Sara's testimony box */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #717171;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: #000000;
+  
+}
+
+.text-content {
+  width: 60%;
+  font-size: x-large;
+}
+
+.images-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center images vertically */
+  gap: 10px; /* Space between images */
+}
+
+.images-content img {
+  width: 100%; /* Adjust based on actual size and preference */
+  max-width: 500px; /* Prevent images from being too large */
+  border-radius: 4px;
+  border-color: #000000;
+}

@@ -11,7 +11,7 @@
 }
 .content-title {
     font-size: 2em; /* Makes the title larger and responsive to the parent font size */
-    color: #ccc; /* Light grey, adjust as needed */
+    color: #000; /* Light grey, adjust as needed */
     margin: 10px 20px 0; /* Space above and around the title */
 }
 
@@ -19,7 +19,7 @@
     font-size: 1.25em; /* Increases the base font size for better readability */
     line-height: 1.6; /* Improves line spacing */
     margin: 0 20px 20px; /* Adds margin around the text */
-    color: #fff; /* Sets text color, adjust as needed */
+    color:#81865E; /* Sets text color, adjust as needed */
 }
 
 @media (max-width: 768px) {

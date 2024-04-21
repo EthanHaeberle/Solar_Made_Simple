@@ -1,0 +1,490 @@
+.HOME {
+    position: relative;
+    width: auto;
+    height: 2500px;
+    background-color: #EBE8DA;
+    overflow: hidden;
+  }
+  
+  .HOME .text-wrapper {
+    position: absolute;
+    height: 63px;
+    top: 704px;
+    left: 332px;
+    font-family: "Roboto Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME .overlap {
+    position: absolute;
+    width: 1206px;
+    height: 536px;
+    top: 159px;
+    left: 275px;
+  }
+  
+  .HOME .overlap-group {
+    position: absolute;
+    width: 1135px;
+    height: 516px;
+    top: 20px;
+    left: 0;
+  }
+  
+  .HOME .image {
+    width: 485px;
+    height: 240px;
+    top: 276px;
+    left: 650px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .HOME .img {
+    width: 717px;
+    height: 447px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .HOME .image-2 {
+    width: 450px;
+    height: 243px;
+    top: 0;
+    left: 756px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .HOME .we-are-a-team-of {
+    position: absolute;
+    width: 1000px; /* Ensure the unit is specified */
+    height: 600px; /* Ensure the unit is specified */
+    top: 800px;
+    margin-left: 0px;
+    /* Adjust left and right to truly center if that's intended */
+    left: 50%; /* Center the element along the x-axis */
+    transform: translateX(-50%); /* Adjust for the element's width to truly center it */
+    font-family: "Righteous-Regular", Helvetica, sans-serif; /* Add fallback font family */
+    font-weight: 400;
+    color: #81865E;
+    font-size: 24px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal; /* You might want to define a specific value here */
+}
+
+  
+  .HOME .footer-big {
+    display: flex;
+    width: 1630px;
+    height: 468px;
+    align-items: flex-start;
+    gap: 125px;
+    padding: 64px 165px;
+    position: absolute;
+    top: 2432px;
+    left: 45px;
+    background-color: #191919;
+  }
+  
+  .HOME .company-info {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .HOME .copyright {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .HOME .div {
+    position: relative;
+    width: 350px;
+    margin-top: -1px;
+    font-family: var(--body-regular-body-3-font-family);
+    font-weight: var(--body-regular-body-3-font-weight);
+    color: var(--neutralsilver);
+    font-size: var(--body-regular-body-3-font-size);
+    letter-spacing: var(--body-regular-body-3-letter-spacing);
+    line-height: var(--body-regular-body-3-line-height);
+    font-style: var(--body-regular-body-3-font-style);
+  }
+  
+  .HOME .text-wrapper-2 {
+    position: relative;
+    width: 350px;
+    font-family: var(--body-regular-body-3-font-family);
+    font-weight: var(--body-regular-body-3-font-weight);
+    color: var(--neutralsilver);
+    font-size: var(--body-regular-body-3-font-size);
+    letter-spacing: var(--body-regular-body-3-letter-spacing);
+    line-height: var(--body-regular-body-3-line-height);
+    font-style: var(--body-regular-body-3-font-style);
+  }
+  
+  .HOME .links {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .HOME .col {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .HOME .text-wrapper-3 {
+    position: relative;
+    width: 160px;
+    margin-top: -1px;
+    font-family: var(--heading-headline-4-font-family);
+    font-weight: var(--heading-headline-4-font-weight);
+    color: var(--neutralwhite);
+    font-size: var(--heading-headline-4-font-size);
+    letter-spacing: var(--heading-headline-4-letter-spacing);
+    line-height: var(--heading-headline-4-line-height);
+    font-style: var(--heading-headline-4-font-style);
+  }
+  
+  .HOME .list-items {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .HOME .text-wrapper-4 {
+    position: relative;
+    width: 160px;
+    margin-top: -1px;
+    font-family: var(--body-regular-body-3-font-family);
+    font-weight: var(--body-regular-body-3-font-weight);
+    color: var(--neutralsilver);
+    font-size: var(--body-regular-body-3-font-size);
+    letter-spacing: var(--body-regular-body-3-letter-spacing);
+    line-height: var(--body-regular-body-3-line-height);
+    font-style: var(--body-regular-body-3-font-style);
+  }
+  
+  .HOME .text-wrapper-5 {
+    position: relative;
+    width: 160px;
+    font-family: var(--body-regular-body-3-font-family);
+    font-weight: var(--body-regular-body-3-font-weight);
+    color: var(--neutralsilver);
+    font-size: var(--body-regular-body-3-font-size);
+    letter-spacing: var(--body-regular-body-3-letter-spacing);
+    line-height: var(--body-regular-body-3-line-height);
+    font-style: var(--body-regular-body-3-font-style);
+  }
+  
+  .HOME .col-2 {
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .HOME .email-input-field {
+    position: relative;
+    width: 257px;
+    height: 40px;
+    margin-right: -2px;
+  }
+  
+  .HOME .overlap-group-2 {
+    position: relative;
+    width: 255px;
+    height: 40px;
+    border-radius: 8px;
+  }
+  
+  .HOME .input-field-BG {
+    position: absolute;
+    width: 255px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-color: var(--default-white);
+    border-radius: 8px;
+    opacity: 0.2;
+  }
+  
+  .HOME .essential-icons-send {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 11px;
+    left: 225px;
+  }
+  
+  .HOME .text-wrapper-6 {
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    font-family: var(--body-regular-body-3-font-family);
+    font-weight: var(--body-regular-body-3-font-weight);
+    color: var(--text-gray-300);
+    font-size: var(--body-regular-body-3-font-size);
+    letter-spacing: var(--body-regular-body-3-letter-spacing);
+    line-height: var(--body-regular-body-3-line-height);
+    white-space: nowrap;
+    font-style: var(--body-regular-body-3-font-style);
+  }
+  
+  .HOME .frame {
+    display: flex;
+    flex-direction: column;
+    width: 1603px;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 1463px;
+    left: 373px;
+  }
+  
+  .HOME .p {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME .frame-2 {
+    display: flex;
+    width: 1603px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 144px;
+    position: absolute;
+    top: 1145px;
+    left: 67px;
+  }
+  
+  .HOME .div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 299px;
+    align-items: center;
+    gap: 8px;
+    padding: 24px 32px;
+    position: relative;
+    background-color: #b3b3b3;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px #abbed133;
+  }
+  
+  .HOME .member {
+    display: flex;
+    flex-direction: column;
+    width: 267px;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+  
+  .HOME .div-3 {
+    position: relative;
+    width: 65px;
+    height: 56px;
+  }
+  
+  .HOME .rectangle {
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    top: 7px;
+    left: 15px;
+    background-color: #f5d626;
+    border-radius: 18px 5px 10px 5px;
+    transform: rotate(-180deg);
+  }
+  
+  .HOME .icon {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 0;
+  }
+  
+  .HOME .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--heading-headline-3-font-family);
+    font-weight: var(--heading-headline-3-font-weight);
+    color: var(--neutraldgrey);
+    font-size: var(--heading-headline-3-font-size);
+    text-align: center;
+    letter-spacing: var(--heading-headline-3-letter-spacing);
+    line-height: var(--heading-headline-3-line-height);
+    font-style: var(--heading-headline-3-font-style);
+  }
+  
+  .HOME .div-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  
+  .HOME .text-wrapper-8 {
+    position: relative;
+    width: 251px;
+    margin-top: -1px;
+    font-family: var(--body-regular-body-3-font-family);
+    font-weight: var(--body-regular-body-3-font-weight);
+    color: var(--neutralgrey);
+    font-size: var(--body-regular-body-3-font-size);
+    text-align: center;
+    letter-spacing: var(--body-regular-body-3-letter-spacing);
+    line-height: var(--body-regular-body-3-line-height);
+    font-style: var(--body-regular-body-3-font-style);
+  }
+  
+  .HOME .rectangle-2 {
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    top: 7px;
+    left: 15px;
+    background-color: #f5d628;
+    border-radius: 18px 5px 10px 5px;
+    transform: rotate(-180deg);
+  }
+  
+  .HOME .frame-3 {
+    margin-left: -2.5px;
+    margin-right: -2.5px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .HOME .text-wrapper-9 {
+    position: relative;
+    width: 240px;
+    margin-top: -1px;
+    font-family: var(--body-regular-body-3-font-family);
+    font-weight: var(--body-regular-body-3-font-weight);
+    color: var(--neutralgrey);
+    font-size: var(--body-regular-body-3-font-size);
+    text-align: center;
+    letter-spacing: var(--body-regular-body-3-letter-spacing);
+    line-height: var(--body-regular-body-3-line-height);
+    font-style: var(--body-regular-body-3-font-style);
+  }
+  
+  .HOME .text-wrapper-10 {
+    position: relative;
+    width: 231px;
+    font-family: var(--heading-headline-3-font-family);
+    font-weight: var(--heading-headline-3-font-weight);
+    color: var(--neutraldgrey);
+    font-size: var(--heading-headline-3-font-size);
+    text-align: center;
+    letter-spacing: var(--heading-headline-3-letter-spacing);
+    line-height: var(--heading-headline-3-line-height);
+    font-style: var(--heading-headline-3-font-style);
+  }
+  
+  .HOME .frame-4 {
+    margin-left: -17px;
+    margin-right: -17px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .HOME .text-wrapper-11 {
+    position: relative;
+    width: 269px;
+    height: 40px;
+    margin-top: -1px;
+    font-family: var(--body-regular-body-3-font-family);
+    font-weight: var(--body-regular-body-3-font-weight);
+    color: var(--neutralgrey);
+    font-size: var(--body-regular-body-3-font-size);
+    text-align: center;
+    letter-spacing: var(--body-regular-body-3-letter-spacing);
+    line-height: var(--body-regular-body-3-line-height);
+    font-style: var(--body-regular-body-3-font-style);
+  }
+  
+  .HOME .overlap-2 {
+    position: absolute;
+    width: 1102px;
+    height: 846px;
+    top: 1579px;
+    left: 324px;
+  }
+  
+  .HOME .by-harnessing-the {
+    position: absolute;
+    width: 995px;
+    height: 334px;
+    top: 512px;
+    left: 200px;
+    font-family: "Righteous-Regular", Helvetica;
+    font-weight: 400;
+    color: #81865E;
+    font-size: 24px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME .image-3 {
+    width: auto;
+    height: 513px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+    margin-left: 300px ;
+    
+  }
+

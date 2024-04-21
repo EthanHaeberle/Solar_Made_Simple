@@ -1,0 +1,21 @@
+/* Add this CSS to your existing stylesheet */
+
+/* Style the h1 element for the Solar Potential Estimator title */
+h1 {
+    color: #81865E; /* Same green color */
+  }
+  
+  /* Increase the size of the input box */
+  #addressInput {
+    width: 300px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    font-size: 18px; /* Increase font size */
+    padding: 8px; /* Add padding for better appearance */
+  }
+  
+  /* Style the result text to be the same green color */
+  #result {
+    color: #81865E; /* Same green color */
+    font-size: 28px; /* Adjust the font size as needed */
+  }
+  
